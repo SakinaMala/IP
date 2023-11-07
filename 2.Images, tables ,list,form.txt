@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <h1>Ritesh Kumar Pandey (TY_IT_43)</h1>
+        <h2>IP Lab : Experiment 2</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="#home"> Home </a></li>
+            <li> <a href="#video"> Video </a></li>
+            <li> <a href="#subject"> Subjects </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>My Contact Infos</h3>
+        <p>
+            <b>Email : </b> <a href="mailto:riteshkumar.dp@somaiya.edu">riteshkumar.dp@somaiya.edu</a> <br>
+            <b>Phone : </b> <a href="tel:+919082407433">9082407433</a> <br>
+            <b>GitHub : </b> <a href="https://github.com/stupiloid-coder">@studpiloid-coder</a> <br>
+            <b>Instagram : </b> <a href="https://www.instagram.com/riteshp_28/">@riteshp_28</a> <br>
+        </p>
+    </main>
+
+    <p id="home">
+        Hello, <br>
+        I'm Ritesh Kumar Pandey. <br>
+        I study in <a href="https://kjsieit.somaiya.edu.in/en" target="blank">K. J. Somaiya Institute of Engineering &
+            Information Technology</a> <br>
+        I'm in Third Year IT Engineering. <br>
+        This is Experiment 2 of <em>IP Lab.</em><br>
+        <b>Thank You</b>
+
+    </p>
+
+    <iframe src="https://www.youtube.com/embed/Qc85HDU2aO4" id="video"></iframe>
+
+    <div class="table" id="subject">
+
+        <h1>Subjects of Semester 5</h1>
+        <table>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Subject Name</th>
+                <th>Theory/Practical</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Software Engineering</td>
+                <td>Theory</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Internet Programming</td>
+                <td>Both</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Computer Network Security</td>
+                <td>Both</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Entrepreneurship & E-bussiness</td>
+                <td>Theory</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Bussiness Communication Ethics</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>DevOps</td>
+                <td>Practical</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Adv. Datastructures & Algorithmic Performance Analysis</td>
+                <td>Elective (Theory + Practical)</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        Copyright &copy; <a href="https://ritesh28-portfolio-v2.herokuapp.com/" target="blank">Ritesh Kumar Pandey</a>
+    </footer>
+
+</body>
+
+</html>

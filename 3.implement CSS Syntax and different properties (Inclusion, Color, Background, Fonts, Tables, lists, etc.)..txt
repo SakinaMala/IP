@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 3</title>
+    <style>
+        body {
+            margin: 50px;
+            margin-bottom: 10px;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: grey;
+            padding: 20px;
+            margin-top: 5px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+        nav ul li {
+            text-align: center;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 50px;
+            background-color: red;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        nav a:hover {
+            background-color: green;
+            color: white;
+        }
+        p {
+            height: 500px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url(bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            padding: 25px;
+            font-size: 40px;
+        }
+        p a {
+            color: red;
+        }
+        p a:hover {
+            color: green;
+        }
+        p b {
+            float: right;
+            color: yellow;
+        }
+        iframe {
+
+            width: 100%;
+
+            height: 500px;
+
+        }
+
+
+        .table {
+
+            text-align: center;
+
+            padding-top: 30px;
+
+        }
+
+
+        table {
+
+            border: solid red 5px;
+
+            padding: 10px;
+
+            width: 100%;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        table th {
+
+            padding: 10px;
+
+            background: rgb(77, 77, 216);
+
+            color: white;
+
+            text-align: center;
+
+        }
+
+
+        table td {
+
+            padding: 50px;
+
+            background: bisque;
+
+        }
+
+
+        footer {
+
+            background-color: rgb(255, 41, 255);
+
+            padding: 20px;
+
+            text-align: center;
+
+            font-size: large;
+
+        }
+
+
+        footer a {
+
+            color: #fff;
+
+        }
+
+
+        footer a:hover {
+
+            color: rgb(25, 0, 255);
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Ritesh Kumar Pandey (TY_IT_43)</h1>
+
+        <h2>IP Lab : Experiment 3</h2>
+
+    </header>
+
+
+    <nav>
+
+        <ul>
+
+            <li> <a href="#home"> Home </a></li>
+
+            <li> <a href="#video"> Video </a></li>
+
+            <li> <a href="#subject"> Subjects </a></li>
+
+        </ul>
+
+    </nav>
+
+
+. <br>
+
+        I study in <a href="https://kjsieit.somaiya.edu.in/en&quot; target="blank">K. J. Somaiya Institute of Engineering &
+
+            Information Technology</a> <br>
+
+        I'm in Third Year IT Engineering. <br>
+
+        This is Experiment 3 of <em>IP Lab.</em><br>
+
+        <b>Thank You</b>
+
+
+    </p>
+
+
+    <iframe src="https://www.youtube.com/embed/Qc85HDU2aO4&quot; id="video"></iframe>
+
+
+    <div class="table" id="subject">
+
+
+        <h1>Subjects of Semester 5</h1>
+
+        <table>
+
+            <tr>
+
+                <th>Sr. No.</th>
+
+                <th>Subject Name</th>
+
+                <th>Theory/Practical</th>
+
+            </tr>
+
+            <tr>
+
+                <td>1</td>
+
+                <td>Software Engineering</td>
+
+                <td>Theory</td>
+
+            </tr>
+
+            <tr>
+
+                <td>2</td>
+
+                <td>Internet Programming</td>
+
+                <td>Both</td>
+
+            </tr>
+
+            <tr>
+
+                <td>3</td>
+
+                <td>Computer Network Security</td>
+
+                <td>Both</td>
+
+            </tr>
+
+            <tr>
+
+                <td>4</td>
+
+                <td>Entrepreneurship & E-bussiness</td>
+
+                <td>Theory</td>
+
+            </tr>
+
+            <tr>
+
+                <td>5</td>
+
+                <td>Bussiness Communication Ethics</td>
+
+                <td>Practical</td>
+
+            </tr>
+
+            <tr>
+
+                <td>6</td>
+
+                <td>DevOps</td>
+
+                <td>Practical</td>
+
+            </tr>
+
+            <tr>
+
+                <td>7</td>
+
+                <td>Adv. Datastructures & Algorithmic Performance Analysis</td>
+
+                <td>Elective (Theory + Practical)</td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+
+herokuapp.com/" target="blank"></a>
+
+    </footer>
+
+</body>
+
+</html>

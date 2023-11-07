@@ -1,0 +1,94 @@
+NavBar.js
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
+
+export default function NavBar() {
+  return (
+    <header className="bg-red-600">
+      <div className="container mx-auto px-10 flex justify-between">
+        <nav>
+          <NavLink
+            to="/"
+            activeClassName="text-red-100 bg-red-700"
+            exact
+            className="inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest" >
+            Ritesh
+          </NavLink>
+          <NavLink
+            to="/about"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+            activeClassName="text-red-100 bg-red-700">
+            About
+          </NavLink>
+          <NavLink
+            to="/project"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+            activeClassName="text-red-100 bg-red-700">
+            Projects
+          </NavLink>
+          <NavLink
+            to="/certificate"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+            activeClassName="text-red-100 bg-red-700">
+            Achievements
+          </NavLink>
+          <NavLink
+            to="blog"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+            activeClassName="text-red-100 bg-red-700">
+            Blogs
+          </NavLink>
+        </nav>
+
+        <div className="inline-flex py-3 px-3 my-6">
+          <SocialIcon
+            url="https://www.linkedin.com/in/ritesh28p/"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="https://www.instagram.com/riteshp_28/"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="https://github.com/stupiloid-coder"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+
+          <SocialIcon
+            url="mailto:riteshkumar.dp@somaiya.edu"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+        </div>
+      </div>
+    </header>
+  );
+}
+
+Home.js
+import React from "react";
+import image from "../bg3.jpg";
+export default function Home() {
+  return (
+    <main>
+      <img src={image} alt="" className="absolute object-cover w-full h-full" />
+      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+        <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leding-snug home-name">
+          Alola, I'm Ritesh
+        </h1>
+      </section>
+    </main>
+  );
+}

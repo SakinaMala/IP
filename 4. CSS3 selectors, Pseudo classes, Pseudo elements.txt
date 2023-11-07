@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4</title>
+
+    <style>
+        header {
+            text-align: center;
+        }
+
+        nav {
+            background-color: grey;
+            padding: 20px;
+            margin-top: 5px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+
+        nav ul li {
+            text-align: center;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 50px;
+            background-color: red;
+            padding: 10px;
+            border-radius: 25px;
+        }
+
+        nav a:hover {
+            background-color: green;
+            color: white;
+        }
+
+        p {
+            height: 250px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url(bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            padding: 25px;
+            font-size: 40px;
+        }
+
+        p a {
+            color: red;
+        }
+
+        p a:hover {
+            color: green;
+        }
+
+        p b {
+            float: right;
+            color: yellow;
+        }
+
+        footer {
+            background-color: rgb(255, 41, 255);
+            padding: 20px;
+            text-align: center;
+            font-size: large;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            color: rgb(25, 0, 255);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Ritesh Kumar Pandey (TY_IT_43)</h1>
+        <h2>IP Lab : Experiment 4</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="#home"> Home </a></li>
+            <li> <a href="#video"> About </a></li>
+            <li> <a href="#subject"> Footer </a></li>
+        </ul>
+    </nav>
+
+    <p id="home">
+        Hello, <br>
+        I'm Ritesh Kumar Pandey. <br>
+        I study in <a href="https://kjsieit.somaiya.edu.in/en" target="blank">K. J. Somaiya Institute of Engineering &
+            Information Technology</a> <br>
+        I'm in Third Year IT Engineering. <br>
+        This is Experiment 4 of <em>IP Lab.</em><br>
+        <b>Thank You</b>
+
+    </p>
+
+    <footer>
+        Copyright &copy; <a href="https://ritesh28-portfolio-v2.herokuapp.com/" target="blank">Ritesh Kumar Pandey</a>
+    </footer>
+
+</body>
+
+</html>

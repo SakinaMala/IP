@@ -1,0 +1,27 @@
+// CallBack
+var content;
+function readingfile() {
+  var fs = require("fs");
+  content = fs.readFileSync("sample.txt", "utf8");
+  return content;
+}
+readingfile();
+console.log(content);
+
+// Event Loopp
+const fs = require("fs");
+function someAsyncOperation(callback) {
+  fs.readFile("sample.txt", callback);
+}
+
+const timeoutScheduled = Date.now();
+
+setTimeout(() => {
+  const delay = Date.now() - timeoutScheduled;
+  console.log(`${delay}ms have passed since I was scheduled`);
+}, 100);
+someAsyncOperation(() => {
+  const startCallback = Date.now();
+
+  while (Date.now() - startCallback < 10) {}
+});
